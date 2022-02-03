@@ -1,0 +1,193 @@
+/* Переменные */
+:root {
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --title-color: #212121;
+  --primary-white-color: #ffffff;
+  --secondary-bcg-color: #f5f4fa;
+  --footer-bcg-color: #2f303a;
+  --logo-black-color: #000000;
+  --gallery-btn-color: #f5f4fa;
+}
+/* Списки */
+.list {
+  list-style: none;
+}
+/* Глобальные стили */
+body {
+  color: var(--text-color);
+  background-color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+/* Хедер */
+.logo {
+  color: var(--logo-black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-first-part {
+  color: var(--accent-color);
+}
+/* Навигация сайта */
+.site-nav .link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Контакты */
+.contacts-link {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/* Заголовки */
+.section .title {
+  color: var(--title-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+}
+/* Герой*/
+.hero .title {
+  color: var(--primary-white-color);
+  /* задаю фон, чтобы было видно белый текст заголовка */
+  background-color: var(--accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #188ce8;
+}
+
+/* Заголовки */
+.section .title {
+  color: var(--title-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+}
+/* Преимущества */
+.section .list-advantages .subtitle {
+  color: var(--title-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.list-advantages p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* Команда */
+.section.team {
+  background-color: var(--secondary-bcg-color);
+}
+.section.team .subtitle {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.section.team p {
+  line-height: 1.2;
+}
+/* Footer */
+.contacts {
+  background-color: var(--footer-bcg-color);
+}
+footer .logo {
+  color: var(--primary-white-color);
+}
+footer .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+footer .link.adress {
+  color: var(--primary-white-color);
+}
+footer .link:hover,
+footer .link:focus {
+  color: var(--accent-color);
+}
+
+/* Страница Портфолио */
+.galery-examples {
+  display: none;
+}
+/* Кнопки */
+.gallery.button {
+  color: var(--title-color);
+  background-color: var(--gallery-btn-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.gallery.button:hover,
+.gallery.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* Галерея */
+.gallery h2 {
+  color: var(--title-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
