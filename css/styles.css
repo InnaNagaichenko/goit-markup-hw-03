@@ -45,7 +45,8 @@ body {
 }
 .container {
   width: 1200px;
-  /* padding: 0 15px; */
+  padding-right: 15px;
+  padding-left: 15px;
   margin: 0 auto;
 }
 img {
@@ -285,8 +286,7 @@ footer .link:focus {
 }
 /* Кнопки */
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .gallery-button {
@@ -330,10 +330,12 @@ footer .link:focus {
   margin-left: var(--main-margin);
   margin-top: var(--main-margin);
   background: #ffffff;
-  border-bottom: 1px solid #eeeeee;
 }
 .card-content {
   padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .gallery h2 {
