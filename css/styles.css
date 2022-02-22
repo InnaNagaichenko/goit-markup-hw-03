@@ -41,7 +41,7 @@ body {
   letter-spacing: 0.03em;
 }
 .section {
-  padding: 0px 15px 94px;
+  padding: 94px 0px;
 }
 .container {
   width: 1200px;
@@ -57,7 +57,7 @@ img {
 .header {
   border-bottom: 1px solid #ececec;
 }
-.container.header {
+.header .container {
   display: flex;
   justify-content: space-between;
   padding-bottom: 0;
@@ -181,7 +181,7 @@ img {
 }
 /* Преимущества */
 .section.advantages {
-  padding-top: 94px;
+  padding-bottom: 0px;
 }
 .list-advantages {
   display: flex;
